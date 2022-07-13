@@ -17,17 +17,20 @@ const Navbar = () => {
     
     */
     return (
-        <ul className="nav justify-content-center">
-            <li className="nav-item">
-                <NavLink exact activeClassName="active" className={"nav-link"} to="/" aria-current="page">Home</NavLink>
-            </li>
-            <li className="nav-item">
-                <NavLink exact activeClassName="active" className={"nav-link"} to="/about">About</NavLink>
-            </li>
-            <li className="nav-item">
-                <NavLink exact activeClassName="active" className={"nav-link"} to="/contact">Contact</NavLink>
-            </li>
-        </ul>
+        <>
+            <h1 className="text-center"><i class="bi bi-8-circle-fill"></i></h1>
+            <ul className="nav justify-content-center">
+                <li className="nav-item">
+                    <NavLink exact activeClassName="active" className={"nav-link"} to="/" aria-current="page">Home</NavLink>
+                </li>
+                <li className="nav-item">
+                    <NavLink exact activeClassName="active" className={"nav-link"} to="/about">About</NavLink>
+                </li>
+                <li className="nav-item">
+                    <NavLink exact activeClassName="active" className={"nav-link"} to="/contact">Contact</NavLink>
+                </li>
+            </ul>
+        </>
     )
 }
 
